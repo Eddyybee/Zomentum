@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <title>Login</title>
+    <script src="./assets/js/index.js" defer></script>
+</head>
+
+
+<body>
+
+    <h1 class="Zomentum">ZOMENTUM</h1>
+
+    <div class="section">
+        <h1 class="sign">Sign in</h1> 
+
+        <form onsubmit="event.preventDefault()" method="POST">
+            <input class="name" type="email" minlength="4" id="email" name="email" placeholder="Email" required>
+            <input class="name" type="password" id="pwd" name="pwd" minlength="4" placeholder="Password" required>
+            <input class="in" onclick="submitForm" type="submit" id="submit" value="Sign in">
+        </form>
+
+        
+    </div>
+</body>
+
+</html>
