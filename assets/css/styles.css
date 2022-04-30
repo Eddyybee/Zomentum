@@ -1,350 +1,330 @@
-body {
-    background-color: #E5E5E5;
-    font-family: 'PT Sans', sans-serif;
-}
-
+@import "./global.css";
 .top-container {
-    background-color:#2F70FE;
-    padding-top: 80px;
-    height: calc(100vh - 63px);
+  background-color: #2f70fe;
+  padding-top: 80px;
+  height: calc(100vh - 63px);
 }
 
 .top-container h1 {
-    width: 35%;
-    line-height: 45px;
-    margin: 0 auto;
-    color: #ffffff;
-    text-align: center;
-    font-weight: 700;
-    
+  width: 35%;
+  line-height: 45px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
 }
 
 .top-container p {
-    width: 40%;
-    margin: 0 auto;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 10px;
+  width: 40%;
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
 }
 
-
-
 .button {
-    background-color: black;
-    color: #ffffff;
-    padding: 10px 20px;
-    font-size: 12px;
-    align-self: center;
+  background-color: black;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 12px;
+  align-self: center;
 }
 
 .imagecontainerleft {
-    float: left;
+  float: left;
 }
 
 .imagecontainerright {
-    float: right;
-    margin-right: 60px;
+  float: right;
+  margin-right: 60px;
 }
 
 #middlecontainer {
-    background-color: #D9FFE5;
-    clear: both;
+  background-color: #d9ffe5;
+  clear: both;
 }
 
 #middlecontainer h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .frame1 {
-    text-align: right;
-    margin-right: 30px;
-    padding-top: 30px;
+  text-align: right;
+  margin-right: 30px;
+  padding-top: 30px;
 }
 
 .head {
-    color: black;
-    margin-bottom: 40px;
-    font-weight: 700;
+  color: black;
+  margin-bottom: 40px;
+  font-weight: 700;
 }
 
 .sell {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .list p {
-    color: black;
-    width: 236px;
-    height: 54px;
-    line-height: 27px;
-    text-align: center;
-    margin-top: 10px;
+  color: black;
+  width: 236px;
+  height: 54px;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 56px;
 }
 
-
 .frame2 {
-    margin-left: 30px;
-    padding-bottom: 30px;
+  margin-left: 30px;
+  padding-bottom: 30px;
 }
 
 .channel {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .program {
-    width: 410px;
-    height: 152px;
-    margin-right: 100px;
-    padding-top: 60px;
-    margin-bottom: 60px;
+  width: 410px;
+  height: 152px;
+  margin-right: 100px;
+  padding-top: 60px;
+  margin-bottom: 60px;
 }
 
 .program h4 {
-    width: 300px;
-    height: 74px;
-    line-height: 37px;
-    color: #181818;
-    font-weight: 700;
+  width: 300px;
+  height: 74px;
+  line-height: 37px;
+  color: #181818;
+  font-weight: 700;
 }
 
 .program h6 {
-    line-height: 27px;
-    letter-spacing: 0.01em;
-    width: 410px;
-    height: 54px;
-    margin-top: 10px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  width: 410px;
+  height: 54px;
+  margin-top: 10px;
 }
 
 .vendor {
-    width: 410px;
-    height: 231px;
-    margin-left: 200px;
-    padding-top: 40px;
-    margin-bottom: 60px;
+  width: 410px;
+  height: 231px;
+  margin-left: 200px;
+  padding-top: 40px;
+  margin-bottom: 60px;
 }
 
 .vendor h4 {
-    width: 300px;
-    height: 74px;
-    line-height: 37px;
-    color: #181818;
-    font-weight: 700;
+  width: 300px;
+  height: 74px;
+  line-height: 37px;
+  color: #181818;
+  font-weight: 700;
 }
 
 .vendor h6 {
-    line-height: 27px;
-    letter-spacing: 0.01em;
-    width: 410px;
-    height: 81px;
-    margin-top: 10px;
-} 
-
-.vendor a {
-    width: 119px;
-    height: 28px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  width: 410px;
+  height: 81px;
+  margin-top: 10px;
 }
 
+.vendor a {
+  width: 119px;
+  height: 28px;
+}
 
 .salesman {
-    width: 515px;
-    height: 258px;
+  width: 515px;
+  height: 258px;
 }
 
 .salesman h4 {
-    width: 300px;
-    height: 74px;
-    line-height: 37px;
-    color: #181818;
-    font-weight: 700;
+  width: 300px;
+  height: 74px;
+  line-height: 37px;
+  color: #181818;
+  font-weight: 700;
 }
 
 .salesman h6 {
-    line-height: 27px;
-    letter-spacing: 0.01em;
-    width: 362px;
-    height: 108px;
-    margin-top: 10px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  width: 362px;
+  height: 108px;
+  margin-top: 10px;
 }
 
 .salesman a {
-    width: 119px;
-    height: 28px;
+  width: 119px;
+  height: 28px;
 }
 
 .salesmanimg {
-    width: 410.11px;
-    height: 259.52px;
+  width: 410.11px;
+  height: 259.52px;
 }
 
 .track {
-    width: 410px;
-    height: 231px;
-    margin-left: 220px;
-    padding-top: 40px;
-    margin-bottom: 60px;
+  width: 410px;
+  height: 231px;
+  margin-left: 220px;
+  padding-top: 40px;
+  margin-bottom: 60px;
 }
 
 .track h4 {
-    width: 300px;
-    height: 74px;
-    line-height: 37px;
-    color: #181818;
-    font-weight: 700;
+  width: 300px;
+  height: 74px;
+  line-height: 37px;
+  color: #181818;
+  font-weight: 700;
 }
 
 .track h6 {
-    line-height: 27px;
-    letter-spacing: 0.01em;
-    width: 410px;
-    height: 81px;
-    margin-top: 10px;
-} 
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  width: 410px;
+  height: 81px;
+  margin-top: 10px;
+}
 
 .track a {
-    width: 119px;
-    height: 28px;
+  width: 119px;
+  height: 28px;
 }
 
 .trackimg {
-    margin-left: 70px;
+  margin-left: 70px;
 }
 
 .version {
-    width: 515px;
-    height: 258px;
+  width: 515px;
+  height: 258px;
 }
 
-
 .version h4 {
-    width: 300px;
-    height: 74px;
-    line-height: 37px;
-    color: #181818;
-    font-weight: 700;
+  width: 300px;
+  height: 74px;
+  line-height: 37px;
+  color: #181818;
+  font-weight: 700;
 }
 
 .version h6 {
-    line-height: 27px;
-    letter-spacing: 0.01em;
-    width: 366px;
-    height: 108px;
-    margin-top: 10px;
-} 
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  width: 366px;
+  height: 108px;
+  margin-top: 10px;
+}
 
 .version a {
-    width: 119px;
-    height: 28px;
+  width: 119px;
+  height: 28px;
 }
 
 .versionimg {
-    width: 410.11px;
-    height: 259.52px;
+  width: 410.11px;
+  height: 259.52px;
 }
 
+@media (max-width: 576px) {
+  .head {
+    width: 100%;
+  }
 
+  .sell {
+    flex-direction: column;
+  }
 
+  .list {
+    margin-bottom: 20px;
+  }
 
+  .frame1 {
+    margin-bottom: 20px;
+  }
 
-@media (max-width : 576px) {
-    .head {
-        width: 100%;
-    }
+  .top-container h1 {
+    width: fit-content;
+    font-size: 38px;
+  }
 
-    .sell {
-        flex-direction: column;
-    }
+  .top-container p {
+    width: fit-content;
+    margin-top: 10px;
+  }
 
-    .list {
-        margin-bottom: 20px;
-    }
+  .top-container {
+    height: 900px;
+  }
 
-    .frame1 {
-        margin-bottom: 20px;
-    }
+  .button {
+    margin-bottom: 40px;
+  }
 
-    .top-container h1 {
-        width: fit-content;
-        font-size: 38px;
-    }
+  .imagecontainerleft {
+    margin-left: 50px;
+  }
 
-    .top-container p {
-        width: fit-content;
-        margin-top: 10px;
-    }
-    
-    .top-container {
-        height: 900px;
-    }
+  .channel {
+    flex-direction: column;
+    margin-left: 30px;
+  }
 
-    .button {
-        margin-bottom: 40px;
-    }
- 
-    .imagecontainerleft {
-        margin-left: 50px;
-    }
+  .programimg {
+    margin-top: 30px;
+  }
 
-    .channel {
-        flex-direction: column;
-        margin-left: 30px;
-    }
+  .vendor {
+    margin-left: 0;
+    order: 1;
+    padding-top: 0;
+  }
 
-    .programimg {
-        margin-top: 30px;
-    }
+  .vendorimg {
+    order: 2;
+  }
 
-    .vendor {
-        margin-left: 0;
-        order: 1;
-        padding-top: 0;
-    }
+  .salesman {
+    width: 410px;
+    margin-bottom: 40px;
+  }
 
-    .vendorimg {
-        order: 2;
-    }
+  .salesmanimg {
+    margin-left: 80px;
+  }
 
-    .salesman {
-        width: 410px;
-        margin-bottom: 40px;
-    }
+  .track {
+    margin-left: 0;
+    order: 1;
+    padding-top: 0;
+  }
 
-    .salesmanimg {
-        margin-left: 80px;
-    }
+  .trackimg {
+    order: 2;
+  }
 
-    .track {
-        margin-left: 0;
-        order: 1;
-        padding-top: 0;
-    }
-   
-    .trackimg {
-        order: 2;
-    }
+  .version {
+    width: 410px;
+    margin-bottom: 20px;
+  }
 
-    .version {
-        width: 410px;
-        margin-bottom: 20px;
-    }
-    
-    .versionimg {
-        padding-left: 40px;
-    }
-
-    
-
-   
-
-    
+  .versionimg {
+    padding-left: 40px;
+  }
 }
