@@ -7,6 +7,5 @@ inputs[1].addEventListener("change", () => {
 });
 
 function submitForm() {
-  // if none of the forms have an empty value. alert success.
   alert(`welcome ${inputs[0].value}`);
 }
