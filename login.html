@@ -14,7 +14,7 @@
     <div class="section">
       <h1 class="sign">Sign in</h1>
 
-      <form onsubmit="event.preventDefault()" method="POST">
+      <form onsubmit="submitForm(event)">
         <input
           class="name"
           type="email"
@@ -33,13 +33,7 @@
           placeholder="Password"
           required
         />
-        <input
-          class="in"
-          onclick="submitForm()"
-          type="submit"
-          id="submit"
-          value="Sign in"
-        />
+        <input class="in" type="submit" id="submit" value="Sign in" />
       </form>
     </div>
   </body>
